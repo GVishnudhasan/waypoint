@@ -10,7 +10,7 @@ Waypoint uses a split monorepo-style architecture. The frontend is a lightweight
 
 ```mermaid
 graph TD
-    subgraph Client [Client-Side React SPA]
+    subgraph Client [Client-Side React SPA] + Kendo UI
         Vite[Vite Dev Server / Vercel]
         Zustand[Zustand Store]
         Views[Interactive Dashboard Views]
@@ -69,7 +69,7 @@ graph TD
 
 | Layer | Technology | Key Libraries |
 | :--- | :--- | :--- |
-| **Frontend** | React 18, TypeScript, Vite | Zustand (State), Socket.IO Client, Lucide React (Icons) |
+| **Frontend** | React, Kendo UI, TypeScript, Vite | Zustand (State), Socket.IO Client, Lucide React (Icons) |
 | **Backend** | NestJS 10, TypeScript | Socket.IO Server, TypeORM, SQL-Lite |
 | **Styles & Themes** | Vanilla CSS | Custom CSS CSS-in-JS Tokens (OLED Dark Mode) |
 
@@ -132,4 +132,4 @@ Run the client and server concurrently using the workspace scripts:
 ---
 
 ## 🎨 Design System & Visual Tokens
-Waypoint runs on a bespoke design system optimized for dark-mode interfaces (inspired by Vercel & Linear). CSS variables located in `client/src/index.css` govern all UI element borders, surfaces, card elevation, and glows. Third-party UI frameworks have been completely purged to ensure zero dependencies, maximum rendering speed, and custom visual consistency.
+Waypoint runs on a bespoke design system optimized for dark-mode interfaces (inspired by Vercel & Linear) that used Kendo UI. CSS variables located in `client/src/index.css` govern all UI element borders, surfaces, card elevation, and glows.
