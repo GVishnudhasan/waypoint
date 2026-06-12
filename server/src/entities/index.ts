@@ -1,0 +1,13 @@
+export { User } from './user.entity';
+export { Goal } from './goal.entity';
+export { Connection } from './connection.entity';
+export { Presence } from './presence.entity';
+export { Zone } from './zone.entity';
+export { Message } from './message.entity';
+export { EventConfig } from './event-config.entity';
+export { RoleConfig } from './role-config.entity';
+export { UserMembership } from './user-membership.entity';
+export { Session } from './session.entity';
+export { AuditLog } from './audit-log.entity';
+export { OutboxEvent } from './outbox-event.entity';
+export { Recommendation } from './recommendation.entity';
