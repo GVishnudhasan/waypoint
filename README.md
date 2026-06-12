@@ -10,7 +10,7 @@ Waypoint uses a split monorepo-style architecture. The frontend is a lightweight
 
 ```mermaid
 graph TD
-    subgraph Client [Client-Side React SPA] + Kendo UI
+    subgraph Client [Client-Side React SPA]
         Vite[Vite Dev Server / Vercel]
         Zustand[Zustand Store]
         Views[Interactive Dashboard Views]
